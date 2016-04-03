@@ -1,0 +1,11 @@
+[package]
+
+name = "missing_algebra"
+version = "0.0.1"
+authors = [ "Your name <you@example.com>" ]
+
+[lib]
+name = "missing_algebra"
+
+[dependencies]
+algebra = { git = "https://github.com/bjz/algebra.git" }
